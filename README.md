@@ -141,3 +141,8 @@ Iterate: 80000000
 ✔ Divide o intervalo ao invés de iterar sequencialmente, reduzindo a profundidade da recursão.
 ✔ Evita o erro de stack overflow, pois a profundidade máxima da recursão será de apenas 27 chamadas (~log₂(100.000.000)) em vez de 100 milhões!
 ✔ Continua sendo uma abordagem recursiva pura, sem for, while ou chamadas assíncronas.
+
+
+💡 Conclusão
+Se você precisa iterar sobre um grande número de elementos recursivamente, é essencial considerar os limites da pilha de chamadas. A abordagem de divisão recursiva permite manter a recursão sem sobrecarregar a execução.
+
